@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div id="reset">
+    <button>Reset</button>
+</div>
+    <div id="screen">
+        <div id="box">
+            <h1 id="title">Select Your Choise</h1>
+            <div id="choiceBox">
+                <div class="choice">
+                    <img src="image/rock.jpg" id="choiceRock" alt="Error Image">
+                    <h2>Rock</h2>
+                </div>
+                <div class="choice">
+                    <img src="image/paper.jpg" id="choicePaper" alt="Error Image">
+                    <h2>Paper</h2>
+                </div>
+                <div class="choice">
+                    <img src="image/scissor.jpg" id="choiceScissor" alt="Error Image">
+                    <h2>Scissor</h2>
+                </div>
+            </div>
+
+            <div id="infoBox">
+                <div id="yourScore">
+                    <h1 id="showUserScore">0</h1><br>
+                    <p>Your Score</p><br>
+                    <button id="userBtn"></button>   
+                </div>
+                <div id="compChoice">
+                    <img src="image/bot.jpg" id="BotImg" alt=""><br><br>
+                    <h3 id="res">Welcome</h3>
+                </div>
+                <div id="compScore">
+                    <h1 id="showBotScore">0</h1><br>
+                    <p>Bot Score</p><br> 
+                    <button id="botBtn"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

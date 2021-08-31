@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+} 
+#screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background: url('image/bg.png') center no-repeat;
+    background-size: cover;
+}
+#choiceBox{
+    width: 900px;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+#choiceBox img{
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 14px red;
+}
+#title{
+    text-align: center;
+    ;color: white;
+}
+#choiceBox img:hover{
+    box-shadow: 2px 3px 30px lime;
+    transition: 1s;
+}
+#choiceBox h2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#infoBox{
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(rgba(255, 0, 0, 0.336), rgba(14, 223, 223, 0.322), rgba(255, 0, 0, 0.404));
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+#infoBox img{
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 14px black;
+}
+#infoBox h3{
+    color: aqua;
+    font-size: 33px;
+}
+#yourScore, #compChoice, #compScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+#infoBox h1{
+    font-size: 57px;
+    color: white;
+}
+#infoBox p{
+    font-size: 22px;
+    color: white;
+}
+#infoBox button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: inset 5px solid blueviolet;
+    box-shadow: inset 2px 2px 9px black;
+    background-color: white;
+}
+
+
+#reset{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#reset button{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    box-shadow: inset 2px 4px 18px rgb(136, 255, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: white;
+}
+
